@@ -162,7 +162,6 @@
   font-size: 14px;
   font-weight: var(--main-weight);
   text-transform: uppercase;
-  mix-blend-mode: hard-light;
   text-shadow: -1px 0 var(--color-text-shadow, #ffffff),
     0 1px var(--color-text-shadow, #ffffff), 1px 0 var(--color-text-shadow, #ffffff),
     0 -1px var(--color-text-shadow, #ffffff);
@@ -172,7 +171,7 @@
   0 1px var(--color-text-shadow, #ffffff),
   1px 0 var(--color-text-shadow, #ffffff),
   0 -1px var(--color-text-shadow, #ffffff)) {
-  .yandex__label {
+  .label {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--color-text-shadow, #ffffff);
   }
