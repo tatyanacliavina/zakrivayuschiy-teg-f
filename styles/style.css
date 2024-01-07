@@ -58,7 +58,7 @@
   padding-bottom: 25px;
 }
 
-.theme-menu__item:not(:last-child)  {
+.theme-menu__item:not(:last-child) {
   padding-bottom: 10px;
 }
 
@@ -172,14 +172,17 @@
   font-weight: var(--main-weight);
   text-transform: uppercase;
   text-shadow: -1px 0 var(--color-text-shadow, #ffffff),
-    0 1px var(--color-text-shadow, #ffffff), 1px 0 var(--color-text-shadow, #ffffff),
+    0 1px var(--color-text-shadow, #ffffff),
+    1px 0 var(--color-text-shadow, #ffffff),
     0 -1px var(--color-text-shadow, #ffffff);
 }
 
-@supports not (text-shadow: -1px 0 var(--color-text-shadow, #ffffff),
+@supports not (
+  text-shadow: -1px 0 var(--color-text-shadow, #ffffff),
   0 1px var(--color-text-shadow, #ffffff),
   1px 0 var(--color-text-shadow, #ffffff),
-  0 -1px var(--color-text-shadow, #ffffff)) {
+  0 -1px var(--color-text-shadow, #ffffff)
+) {
   .label {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--color-text-shadow, #ffffff);
